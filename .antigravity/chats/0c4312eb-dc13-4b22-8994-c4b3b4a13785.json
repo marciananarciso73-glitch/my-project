@@ -3,6 +3,43 @@
   "name": "New project, please",
   "createdAt": "2026-11-04T19:22:47.787Z",
   "filename": "0c4312eb-dc13-4b22-8994-c4b3b4a13785.json",
-  "geminiStarted": false,
-  "messages": []
+  "geminiStarted": true,
+  "messages": [
+    {
+      "id": "da38611c-dffc-4e27-a647-8df734d443f5",
+      "role": "user",
+      "content": "New project, please",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-04T19:22:49.606Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "f360db80-9959-4850-86bf-bc33dd975437",
+      "role": "agent",
+      "content": "What would you like to build? \n\nBoth **Node.js** and **Python** are set up and ready to use in this environment. \n\nTell me about your idea or let me know if you would like me to scaffold a starter project, such as:\n\n- **Web Application / Dashboard** (React + Vite + Tailwind CSS)\n- **Backend API** (Python / FastAPI or Node.js / Express)\n- **Full-Stack App** (Next.js or React frontend with an API backend)\n- **CLI / Automation Tool** (Python or Node.js)\n\nWhenever you're ready, just let me know what you have in mind!",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "da38611c-dffc-4e27-a647-8df734d443f5",
+      "created_at": "2026-11-04T19:23:19.408Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    },
+    {
+      "id": "37cd4ed4-24a4-4470-aeff-cc86bc5aebd7",
+      "role": "user",
+      "content": "Yes, Python",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-04T19:24:15.868Z",
+      "sender": "ios",
+      "is_cancelled": false
+    }
+  ]
 }
